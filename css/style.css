@@ -69,3 +69,38 @@ a:active { /* selected link */
   letter-spacing: 3.0px;
   text-decoration: underline;
 }
+.button {
+  display: inline-block;
+  background-color: #ffffff;
+  border: none;
+  color: #424242;
+  font-weight: 400;
+  padding: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.button:hover,
+.button:focus {
+  display: inline-block;
+  background-color: #d81B61;
+  border: none;
+  color: #ffffff;
+  font-weight: 400;
+  padding: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.button:active {
+  display: inline-block;
+  background-color: #d81B61;
+  border: none;
+  color: #ffffff;
+  font-weight: 400;
+  padding: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-decoration: underline;
+}
