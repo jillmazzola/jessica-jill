@@ -40,3 +40,32 @@ h4 {
 img {
   width: 100%;
 }
+a {
+  color: #707070;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3.0px;
+  text-decoration: none;
+}
+a:visited { /* visited link */
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3.0px;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #d81B61;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3.0px;
+  text-decoration: none;
+}
+a:active { /* selected link */
+  color: #d81B61;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 3.0px;
+  text-decoration: underline;
+}
