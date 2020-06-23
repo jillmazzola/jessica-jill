@@ -6,3 +6,6 @@ Secondary Color (Black): #000000;
 Secondary Color (Gray): #707070;
 Secondary Color (White): #ffffff;
 */
+body {
+  font-family: 'Roboto', sans-serif;
+}
