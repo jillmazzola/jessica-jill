@@ -104,3 +104,21 @@ a:active { /* selected link */
   transition: all 0.5s;
   text-decoration: underline;
 }
+.button.contact {
+  background-color: transparent;
+  color: #707070;
+  text-transform: uppercase;
+  width: 100px;
+  transition: 1s;
+}
+.button.contact:hover,
+.button.contact:focus {
+  background-color: #000000;
+  color: #ffffff;
+  width: 100px;
+}
+.button.contact:active {
+  background-color: #707070;
+  color: #ffffff;
+  width: 100px;
+}
