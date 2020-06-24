@@ -109,20 +109,23 @@ a:active { /* selected link */
   text-decoration: underline;
 }
 .button.contact {
-  background-color: transparent;
-  color: #707070;
+  background-color: #d81B61;
+  color: #ffffff;
   text-transform: uppercase;
-  width: 100px;
+  width: 125px;
   transition: 1s;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 18px;
+  text-align: center;
 }
 .button.contact:hover,
 .button.contact:focus {
   background-color: #000000;
   color: #ffffff;
-  width: 100px;
 }
 .button.contact:active {
-  background-color: #707070;
+  background-color: #000000;
   color: #ffffff;
-  width: 100px;
+  text-transform: underline;
 }
