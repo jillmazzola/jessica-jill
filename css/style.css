@@ -14,6 +14,10 @@ body {
   line-height: 1; /* Sets the line-height to 1 * the font-size */
   color: #000000;
 }
+header {
+  background-color: #ffffff;
+  padding: 0.625em;
+}
 h1, h2, h3, h4 {
   font-family: 'Abril Fatface', cursive;
   line-height: 1.4;
