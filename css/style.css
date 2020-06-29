@@ -10,7 +10,7 @@ Secondary Color (White): #ffffff;
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(to bottom right, #ffffff, #fdd837);
+  background-image: linear-gradient(to bottom, #ffffff, #fdd837);
   font-family: 'Roboto', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
