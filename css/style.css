@@ -131,6 +131,7 @@ a:active { /* selected link */
   padding: 10px;
   border-radius: 18px;
   text-align: center;
+  float: none;
 }
 .button.contact:hover,
 .button.contact:focus {
