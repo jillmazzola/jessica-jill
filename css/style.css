@@ -87,7 +87,8 @@ a:active { /* selected link */
 }
 .button {
   display: inline-block;
-  background-color: #ffffff;
+  background-color: transparent;
+  float: right;
   border: none;
   color: #424242;
   font-weight: 400;
