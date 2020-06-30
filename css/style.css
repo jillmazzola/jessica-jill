@@ -28,7 +28,7 @@ header {
   width: 100%;
 }
 main {
-  padding-top: 133px;
+  padding-top: 100px;
 }
 h1, h2, h3, h4 {
   font-family: 'Abril Fatface', cursive;
@@ -180,6 +180,9 @@ nav > ul > li > a:active {
 #work .row {
   padding: 25px 0;
   border-bottom: 1px solid #707070;
+}
+#work h3 {
+  margin: 15px 0;
 }
 #navbar .container {
   display: inline-flex;
