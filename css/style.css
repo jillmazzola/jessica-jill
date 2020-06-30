@@ -184,3 +184,12 @@ nav > ul > li > a:active {
 #navbar .container {
   display: inline-flex;
 }
+div > ul.b {
+  list-style-type: none;
+  padding: 0px;
+}
+div > ul.b > li {
+  display: inline;
+}
+svg {
+  max-width: 50px;
