@@ -16,6 +16,7 @@ body {
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1; /* Sets the line-height to 1 * the font-size */
   color: #000000;
+  text-align: center;
 }
 header {
   background-color: #ffffff;
