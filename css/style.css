@@ -132,6 +132,9 @@ a:active { /* selected link */
   border-radius: 18px;
   text-align: center;
   float: none;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:    0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow:         0px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 .button.contact:hover,
 .button.contact:focus {
@@ -180,6 +183,11 @@ nav > ul > li > a:active {
 #work .row {
   padding: 25px 0;
   border-bottom: 1px solid #707070;
+  background-color: #ffffff;
+  text-align: left;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:    0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow:         0px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
 #work h3 {
   margin: 15px 0;
