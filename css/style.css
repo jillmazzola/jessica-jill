@@ -220,6 +220,14 @@ svg {
   -moz-box-shadow:    0px 3px 10px 0px rgba(0, 0, 0, 0.3);
   box-shadow:         0px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
+#about-entries .row {
+  margin: 25px 10px;
+  padding: 10px 10px 15px 10px;
+  background-color: #ffffff;
+  text-align: left;
+#about-entries h2 {
+  padding: 0 10px;
+}
 table {
   border-collapse: collapse;
 }
@@ -232,4 +240,7 @@ td {
   text-align: left;
   padding: 5px;
   vertical-align: top;
+}
+#about-entries h4 {
+  margin: 0px;
 }
