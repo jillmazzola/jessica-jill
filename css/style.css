@@ -244,3 +244,6 @@ td {
 #about-entries h4 {
   margin: 0px;
 }
+#about-entries p {
+  margin: 8px;
+}
