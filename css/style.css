@@ -268,6 +268,15 @@ td {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+}
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
