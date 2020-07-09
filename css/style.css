@@ -277,6 +277,15 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
+  .col-md-6 {
+    width: 50%;
+    margin: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
