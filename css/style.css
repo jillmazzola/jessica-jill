@@ -280,7 +280,8 @@ Medium devices (640px and larger)
   }
   .col-md-6 {
     width: 50%;
-    margin: 5px;
+    padding: 8px;
+  }
   }
   .row::after {
     content: "";
