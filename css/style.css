@@ -282,11 +282,17 @@ Medium devices (640px and larger)
     width: 50%;
     padding: 8px;
   }
+  [class*="col-"] {
+    float: left;
   }
   .row::after {
     content: "";
     clear: both;
     display: table;
+  }
+  .col-md-6::before {
+    content: "";
+    float: left;
   }
 }
 /* ==============================
