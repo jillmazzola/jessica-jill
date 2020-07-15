@@ -311,6 +311,10 @@ Medium devices (640px and larger)
     right: 10px;
     bottom: 10px;
   }
+  #work img {
+    min-height: 279px;
+    object-fit: cover;
+  }
   #entries .row {
     padding: 10px;
     position: relative;
@@ -323,6 +327,18 @@ Medium devices (640px and larger)
   #entries h2 {
     margin-top: 0px;
   }
+  #entries img {
+    min-width: 279px;
+    min-height: 279px;
+    object-fit: cover;
+  }
+  #jessica-about img {
+    min-width: 284px;
+    object-fit: cover;
+  }
+  #jill-about img {
+    min-width: 284px;
+    object-fit: cover;
   }
 }
 /* ==============================
