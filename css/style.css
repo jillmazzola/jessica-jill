@@ -335,6 +335,9 @@ Medium devices (640px and larger)
   #kinderclimbers .row {
     padding-bottom: 38px;
   }
+  #about-entries .row {
+    padding-bottom: 10px;
+  }
   #jessica-about img {
     min-width: 284px;
     object-fit: cover;
