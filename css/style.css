@@ -301,6 +301,25 @@ Medium devices (640px and larger)
   }
   a.button {
     padding: 0px;
+    }
+  #work .row {
+    padding: 10px;
+    position: relative;
+  }
+  #work a.button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  #entries .row {
+    padding: 10px;
+    position: relative;
+  }
+  #entries a.button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
   }
 }
 /* ==============================
