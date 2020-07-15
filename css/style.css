@@ -320,6 +320,9 @@ Medium devices (640px and larger)
     right: 10px;
     bottom: 10px;
   }
+  #entries h2 {
+    margin-top: 0px;
+  }
   }
 }
 /* ==============================
