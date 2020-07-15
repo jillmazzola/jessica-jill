@@ -293,6 +293,8 @@ Medium devices (640px and larger)
   .col-md-6::before {
     content: "";
     float: left;
+    padding-top: 100%;
+  }
   }
 }
 /* ==============================
