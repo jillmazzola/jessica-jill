@@ -362,6 +362,10 @@ Large devices (1024px or larger)
 .col-lg-7 {
   width: 58.33%;
 }
+.col-lg-5 img {
+  max-height: 279px;
+  object-fit: cover;
+}
 }
 /* ==============================
 X-large devices (1440px or larger)
