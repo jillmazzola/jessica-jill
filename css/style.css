@@ -158,10 +158,12 @@ a:active { /* selected link */
 }
 .logo {
   max-width: 50px;
+  position: fixed;
 }
 nav {
   display: inline-block;
   width: 100%;
+  position: relative;
 }
 nav > ul {
   list-style-type: none;
@@ -171,7 +173,7 @@ nav > ul > li {
   display: inline-block;
 }
 nav > ul > li > a {
-  padding: 2px;
+  padding: 0 2px;
   text-transform: uppercase;
   font-weight: 400;
   color: #707070;
@@ -182,6 +184,9 @@ nav > ul > li > a:focus {
 }
 nav > ul > li > a:active {
   text-transform: underline;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
 }
 .navtoggle, .navtoggle.responsive {
   position: relative;
@@ -195,7 +200,7 @@ nav > ul > li > a:active {
 }
 
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 65px 0 0;
 }
 .navtoggle.responsive li  {
   display: block;
@@ -221,7 +226,7 @@ nav > ul > li > a:active {
   margin: 15px 10px;
 }
 #navbar .container {
-  display: inline-flex;
+  display: block;
 }
 div > ul.b {
   list-style-type: none;
@@ -300,11 +305,11 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
-  }
   nav > ul > li {
     display: none;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
   }
   .col-md-6 {
     width: 50%;
