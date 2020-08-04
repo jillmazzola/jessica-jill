@@ -291,6 +291,18 @@ td {
     height: 100%;
     border: 0;
 }
+#pink-twitter .st0 {
+  fill: #ffffff;
+}
+#pink-twitter .st1 {
+  fill: #d81b60;
+}
+#pink-linkedin .st0 {
+  fill: #d81b60;
+}
+#pink-linkedin .st1 {
+  fill: #ffffff;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
