@@ -300,6 +300,9 @@ td {
 #pink-linkedin .st1 {
   fill: #ffffff;
 }
+#cartoon-title h1 {
+  font-size: 2.25em;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -395,6 +398,9 @@ Medium devices (640px and larger)
   #jill-about img {
     min-width: 284px;
     object-fit: cover;
+  }
+  #cartoon-title h1 {
+    font-size: 2.75em;
   }
 }
 /* ==============================
