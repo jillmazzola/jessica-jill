@@ -419,6 +419,13 @@ Large devices (1024px or larger)
   max-height: 279px;
   object-fit: cover;
 }
+#hero p {
+  font-size: 1.5em;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 /* ==============================
 X-large devices (1440px or larger)
