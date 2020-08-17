@@ -144,7 +144,7 @@ a:active { /* selected link */
 .button.contact:active {
   background-color: #000000;
   color: #ffffff;
-  text-transform: underline;
+  text-decoration: underline;
 }
 /* Layout styling */
 .container {
@@ -180,7 +180,7 @@ nav > ul > li > a:focus {
   color: #d81B61;
 }
 nav > ul > li > a:active {
-  text-transform: underline;
+  text-decoration: underline;
 }
 .navtoggle li:not(:last-child) {
   display: none;
