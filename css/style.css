@@ -361,6 +361,10 @@ td {
   font-size: 2.25em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
